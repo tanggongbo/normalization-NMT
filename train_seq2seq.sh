@@ -1,7 +1,9 @@
 #!/bin/bash
 
-#this file is used to train RNN seq2seq models, 
-#you need to adjust the paths and related parameters 
+# this file is used to train RNN seq2seq models, 
+# you need to adjust the paths and related parameters 
+# especially when you train subword-level models, 
+# you need change vocabulary setting "--max-size"
 
 lan=en #or the other four languages
 RNN=tanh # or lstm, gru
